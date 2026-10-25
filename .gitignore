@@ -8,3 +8,5 @@ screenshots/
 .env.*
 !.env.example
 *.zip
+.audio-work/
+private-audio/
