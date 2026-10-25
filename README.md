@@ -2,7 +2,7 @@
 
 面向统计学背景、制造业外企项目管理与数据分析岗位的个人英语学习网站。
 
-**在线学习入口：[Work English Lab](https://work-english-lab-lukun.yummy-stork-2657.chatgpt.site)**（个人访问权限）。本仓库公开提供网站源码与课程内容，未启用GitHub Pages。
+**在线学习入口：[Work English Lab](https://LU36366.github.io/work-english-lab/)**。直接打开即可使用，不需要账号密码。本仓库公开提供网站源码与课程内容，通过GitHub Pages发布。
 
 ## 学习内容
 
@@ -44,7 +44,9 @@ node preview.cjs
 
 `content/06_模块课程手册.md` 从课程数据生成，直接修改该文件会在下次生成时被覆盖，应修改 `dist/data.js`。
 
-网站发布产物是 `dist/`。在线版本需要将更新后的产物重新部署；向这个仓库推送代码不会自动更新现有Sites网站。
+网站发布产物是 `dist/`。向 `main` 分支推送后，GitHub Actions会生成文档、检查JavaScript并自动更新GitHub Pages网站。工作流见 `.github/workflows/pages.yml`。
+
+原有的Sites版本独立维护；不同网址的浏览器学习记录不会自动迁移。更换网址前，可在学习档案中导出JSON，再在新网址导入。
 
 ## 数据与评分
 
