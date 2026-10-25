@@ -1,0 +1,11 @@
+{
+  "name": "work-english-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal workplace English learning site for manufacturing project management and data analysis",
+  "scripts": {
+    "start": "node preview.cjs",
+    "prepare": "node prepare-docs.cjs",
+    "check": "node --check dist/app.js && node --check dist/data.js && node --check dist/docs-data.js && node --check preview.cjs && node --check prepare-docs.cjs"
+  }
+}
