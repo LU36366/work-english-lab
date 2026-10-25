@@ -2,7 +2,7 @@
 
 面向统计学背景、制造业外企项目管理与数据分析岗位的个人英语学习网站。
 
-**在线学习入口：[Work English Lab](https://work-english-lab-lukun.yummy-stork-2657.chatgpt.site)**（个人访问权限）。本仓库为私有源码与课程备份，未启用GitHub Pages。
+**在线学习入口：[Work English Lab](https://work-english-lab-lukun.yummy-stork-2657.chatgpt.site)**（个人访问权限）。本仓库公开提供网站源码与课程内容，未启用GitHub Pages。
 
 ## 学习内容
 
