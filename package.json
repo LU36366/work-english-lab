@@ -6,6 +6,6 @@
   "scripts": {
     "start": "node preview.cjs",
     "prepare": "node prepare-docs.cjs",
-    "check": "node --check dist/app.js && node --check dist/data.js && node --check dist/docs-data.js && node --check dist/audio.js && node --check dist/audio-data.js && node --check dist/audio-timings.js && node --check preview.cjs && node --check prepare-docs.cjs && node --check scripts/prepare-audio.cjs"
+    "check": "node --check dist/app.js && node --check dist/data.js && node --check dist/docs-data.js && node --check dist/audio.js && node --check dist/audio-data.js && node --check dist/audio-timings.js && node --check dist/vocab-data.js && node --check dist/vocab.js && node --check preview.cjs && node --check prepare-docs.cjs && node --check scripts/prepare-audio.cjs && node scripts/check-vocabulary.cjs"
   }
 }
