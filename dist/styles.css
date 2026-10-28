@@ -15,3 +15,10 @@
 [hidden]{display:none!important}
 @media print{.sidebar,.topbar,footer,.btn-row,.btn,#toast{display:none!important}.workspace{margin:0}body{background:white}main{padding:0;max-width:none}.panel{border:0;padding:0}.page-head{margin-bottom:15px}.score-table-wrap{overflow:visible}a{overflow-wrap:anywhere}h1{font-size:25px}h2,h3{break-after:avoid}tr,.phrase{break-inside:avoid}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+/* One source material across listening, writing and review. */
+.linked-material{margin:22px 0;padding:22px;background:#f1f3e8;border:1px solid #d9dfca;border-radius:14px}
+.linked-material h3{margin:8px 0}.linked-material h4{margin:20px 0 10px}.linked-material audio{display:block;width:100%;margin:14px 0}
+.linked-material details,.practice-reference{margin-top:20px;border-top:1px solid #dce0d1;padding-top:16px}
+.linked-material summary,.practice-reference summary{cursor:pointer;font-weight:600;color:#244d3e;line-height:1.7}
+.practice-reference .english-text,.linked-material .english-text{margin-top:16px;white-space:pre-line;overflow-wrap:anywhere}
+.chapter-assessment .note{margin-top:14px}.chapter-assessment .btn{white-space:normal}
